@@ -1,3 +1,5 @@
+Simple repository, to learn the very basics of Docker, Dockerfile, Apache Server, Bash Scripts 
+
 ## 0 Installation of docker-engine
 1. `cd ~`
 2. `curl -fsSL https://get.docker.com -o get-docker.sh`  
