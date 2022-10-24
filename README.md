@@ -12,7 +12,7 @@ Simple repository, to learn the very basics of Docker, Dockerfile, Apache Server
 1. `git clone https://github.com/vabulus/linux-docker-exercise.git`
 2. `cd linux-docker-exercise`
 3. `docker build -t webserver .`
-4. `docker run -it -p 8099:80 -d webserver`
+4. `docker run -it -p 80:80 -d -v /media/data/webroot:/var/www/html webserver`
 5. `ip addr`
 
-Open in browser: `http://[ip]:8099/hello-world.php` (IP found out with command #5)
+Open in browser: `http://[ip]:80` (IP found out with command #5)
